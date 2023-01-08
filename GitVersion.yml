@@ -6,4 +6,3 @@ patch-version-bump-message: '\+semver:\s?(fix|patch)'
 no-bump-message: '\+semver:\s?(none|skip)'
 ignore:
   commits-before: 2023-01-01T00:00:00
-
