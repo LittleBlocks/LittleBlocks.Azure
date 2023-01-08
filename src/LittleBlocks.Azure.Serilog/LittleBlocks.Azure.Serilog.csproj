@@ -12,7 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LittleBlocks.Logging.SeriLog" Version="1.0.1" />
+      <PackageReference Include="LittleBlocks.Logging.SeriLog" Version="1.0.2" />
       <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
       <PackageReference Include="Serilog.Sinks.AzureAnalytics" Version="4.8.0" />
       <PackageReference Include="Serilog.Sinks.AzureTableStorage" Version="5.0.0" />
