@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>LittleBlocks.Azure.AspNetCore.AppInsights</Title>
+        <Authors>Mohammad Moattar</Authors>
+        <PackageProjectUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
+        <LangVersion>default</LangVersion>
+        <TargetFrameworks>net47;net5.0;net6.0;netstandard2.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+        <PackageReference Include="LittleBlocks.Configurations" Version="1.0.2" />
+    </ItemGroup>
+
+</Project>
