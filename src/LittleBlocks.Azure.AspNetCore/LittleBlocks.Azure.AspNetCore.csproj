@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>LittleBlocks.Azure.AspNetCore</Title>
         <Authors>Mohammad Moattar</Authors>
@@ -9,6 +8,7 @@
         <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
         <LangVersion>default</LangVersion>
         <PackageIcon>Logo.png</PackageIcon>
+        <TargetFrameworks>net47;net5.0;net6.0;netstandard2.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
