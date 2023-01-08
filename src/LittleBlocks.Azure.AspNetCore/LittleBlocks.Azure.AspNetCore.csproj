@@ -7,7 +7,6 @@
         <PackageProjectUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</PackageProjectUrl>
         <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
         <LangVersion>default</LangVersion>
-        <PackageIcon>Logo.png</PackageIcon>
         <TargetFrameworks>net47;net5.0;net6.0;netstandard2.0</TargetFrameworks>
     </PropertyGroup>
 
@@ -15,13 +14,6 @@
         <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.2.2" />
         <PackageReference Include="Azure.Identity" Version="1.8.0" />
         <PackageReference Include="LittleBlocks.Configurations" Version="1.0.2" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Update="Logo.png">
-        <Pack>True</Pack>
-        <PackagePath></PackagePath>
-      </None>
     </ItemGroup>
 
 </Project>
