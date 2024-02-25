@@ -16,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extras", "Extras", "{D2824174-5D64-419E-BF04-87170FC1A08B}"
 	ProjectSection(SolutionItems) = preProject
 		..\GitVersion.yml = ..\GitVersion.yml
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
 	EndProjectSection
 EndProject
 Global
