@@ -7,12 +7,12 @@
         <PackageProjectUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</PackageProjectUrl>
         <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
         <LangVersion>default</LangVersion>
-        <TargetFrameworks>net47;net5.0;net6.0;netstandard2.0</TargetFrameworks>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
-        <PackageReference Include="LittleBlocks.Configurations" Version="1.0.2" />
+        <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+        <PackageReference Include="LittleBlocks.Configurations" Version="2.0.0" />
     </ItemGroup>
 
 </Project>
